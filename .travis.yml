@@ -25,7 +25,7 @@ script:
   - export KBUILD_BUILD_USER="yashpaljoshi"
   - export KBUILD_BUILD_HOST="Shivom007"
   - export ARCH=arm64
-  - make  zx55q05_defconfig
+  - make  msm_N939St64_defconfig
   - make -j2
 
 after_success:
